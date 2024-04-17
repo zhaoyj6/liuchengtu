@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T08:01:38.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="kmWujD6Z2rInlPoWiWga" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T08:02:54.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="Ebsbzv1qjbSpczsUj6YP" version="24.2.5" type="github">
   <diagram name="第 1 页" id="PnaPAZnkGxvQ3sKcBmyf">
     <mxGraphModel dx="2464" dy="1985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,8 +34,14 @@
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;产生原根g&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-6" target="P9a2Z2qT7diyGfMxn8Dv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;随机选取整数&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;x为私钥&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="265" y="270" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-7" target="P9a2Z2qT7diyGfMxn8Dv-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ff3333&quot;&gt;计算密文C1、C2&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#ff3333&quot;&gt;C1 = g^k mod p&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#ff3333&quot;&gt;C1 = y^k M mod p&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="265" y="340" width="175" height="70" as="geometry" />
@@ -73,26 +79,24 @@
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-12" target="P9a2Z2qT7diyGfMxn8Dv-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="975" y="220" />
+              <mxPoint x="955" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-12" target="P9a2Z2qT7diyGfMxn8Dv-4">
+        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-12" target="P9a2Z2qT7diyGfMxn8Dv-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="975" y="80" />
-              <mxPoint x="450" y="80" />
+              <mxPoint x="955" y="85" />
+              <mxPoint x="450" y="85" />
               <mxPoint x="450" y="133" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;判断是否为素数&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="105" width="170" height="80" as="geometry" />
+          <mxGeometry x="870" y="105" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="890" y="145" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-13" target="P9a2Z2qT7diyGfMxn8Dv-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;q = 2 * p + 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="125" width="140" height="40" as="geometry" />
@@ -119,7 +123,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;g^f(p) = 1 (mod p)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;g ^ f(p) = 1 (mod p)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="180" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-18" target="P9a2Z2qT7diyGfMxn8Dv-17">
@@ -143,7 +147,7 @@
           <mxGeometry x="690" y="190" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-48" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="670" y="50" width="40" height="30" as="geometry" />
+          <mxGeometry x="670" y="55" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-50" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="170" width="40" height="30" as="geometry" />
