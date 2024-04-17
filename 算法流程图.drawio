@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T07:48:37.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="LQcihxegreYjOugsvV5-" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T07:50:30.264Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="ijG3N3L9-mMj-e96SrPo" version="24.2.5" type="github">
   <diagram name="第 1 页" id="PnaPAZnkGxvQ3sKcBmyf">
     <mxGraphModel dx="2464" dy="1985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-3" target="P9a2Z2qT7diyGfMxn8Dv-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-3" value="恢复出AES密钥&lt;div&gt;M = C2/C1^x mod p&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-3" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;恢复出AES密钥&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;M = C2/C1^x mod p&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="430" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-4" target="P9a2Z2qT7diyGfMxn8Dv-5">
@@ -37,13 +37,13 @@
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-6" target="P9a2Z2qT7diyGfMxn8Dv-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-6" value="随机选取整数x为私钥" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-6" value="随机选取整数&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;x为私钥&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="270" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-7" target="P9a2Z2qT7diyGfMxn8Dv-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-7" value="计算密文C1、C2&lt;div&gt;C1 = g^k mod p&lt;/div&gt;&lt;div&gt;C1 = y^k M mod p&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P9a2Z2qT7diyGfMxn8Dv-7" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;计算密文C1、C2&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;C1 = g^k mod p&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;C1 = y^k M mod p&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="340" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P9a2Z2qT7diyGfMxn8Dv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9a2Z2qT7diyGfMxn8Dv-8" target="P9a2Z2qT7diyGfMxn8Dv-10">
